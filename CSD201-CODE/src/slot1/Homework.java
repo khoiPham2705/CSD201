@@ -18,6 +18,7 @@ public class Homework {
 
         System.out.println("enter question:");
         int no = scanner.nextInt();  
+        scanner.nextLine();
         if (no == 1){
             int[] arr = {9,7,0,5,12,3,11,8};
             System.out.println("find second max or min?: (1,2) ");
@@ -34,6 +35,8 @@ public class Homework {
         if (no == 2){
             System.out.println("enter:");
             String test = scanner.nextLine();
+            
+            
             System.out.println(checkPalindrome(test));
         }
         if (no ==3 ){
